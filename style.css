@@ -1,6 +1,11 @@
 *{
     font-family: Roboto;
 }
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
 .hero{
     background-color: #1F2937;
     color: #f9faf8;
@@ -58,3 +63,44 @@
     color: #f9faf8;
     padding: 10px 20px;
 }
+
+.info-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 20px;
+}
+.blocks{
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 30px;
+    justify-content: center;
+}
+.square{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;  
+    row-gap: 10px;
+}
+.info-block{
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: transparent;
+    width: 140px;
+    height: 140px;
+    order: 1;
+}
+.info-text{
+    width: 150px;
+    height: 100px;
+    order: 2;
+    text-align: center;
+    font-size: 16px;
+}
+.info{
+    padding: 20px 10px 40px 10px;
+}
+
