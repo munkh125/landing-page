@@ -69,7 +69,7 @@ a{
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
 }
 .blocks{
     display: flex;
@@ -102,5 +102,24 @@ a{
 }
 .info{
     padding: 20px 10px 40px 10px;
+}
+.quote{
+    background-color: #e5e7eb;
+    margin: 0 auto;
+    color: #1f2937;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+.quote p{
+    font-style: italic;
+    font-size: 36px;
+}
+.quote-name{
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
 }
 
