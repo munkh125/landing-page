@@ -1,12 +1,15 @@
 *{
     font-family: Roboto;
 }
+body{
+    margin: 0;
+}
 a{
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
 }
-.hero{
+.hero, .footer{
     background-color: #1F2937;
     color: #f9faf8;
 }
@@ -122,4 +125,34 @@ a{
     font-size: 24px;
     align-self: flex-end;
 }
+.signup{
+    background-color: #3882F6;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px; 
+    border-radius: 5px;
+    margin: 10% 10%;
+}
 
+.signup button{
+
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 1;
+    border-color: #f9faf8;
+    border-style: solid;
+    color: #f9faf8;
+    padding: 10px 20px;
+    margin-left: 60px;
+}
+.bold{
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
